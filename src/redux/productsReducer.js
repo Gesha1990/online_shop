@@ -40,7 +40,7 @@ const productsReducer = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
  const addAllProductsAC = (products) => ({type: ADD_ALL_PRODUCTS, products, isLoaded: true});
  const postProductSuccessAC = (success) => ({type: POST_PRODUCTS, success: success});

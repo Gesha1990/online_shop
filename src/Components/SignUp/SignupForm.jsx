@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './AuthorizationContainer.module.css'
+import style from './SignUp.module.css'
 import {Field, reduxForm} from "redux-form";
 import {TextArea} from "../Common/FormsControls/FormsControls";
 import {maxLengthCreator, required} from "../../utils/validators/validators";
@@ -8,6 +8,7 @@ import {NavLink} from "react-router-dom";
 const maxLength30 = maxLengthCreator(30);
 
 const Signup = (props) => {
+console.log(props.isSignUp);
 
   let resetFields = {
     username: '',
@@ -36,7 +37,7 @@ const Signup = (props) => {
 
 
   )
-}
+};
 
 export const SignupReduxForm = reduxForm({form: 'signup'})(Signup);
 

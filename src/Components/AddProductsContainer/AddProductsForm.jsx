@@ -22,16 +22,16 @@ const AddProductsForm = (props) => {
     <form className={style.addPrducts} onSubmit={props.handleSubmit}>
       <div>
         Product title: <br/>
-        <Field component={TextArea} name={'title'} validate={[required]}></Field>
+        <Field component={TextArea} name={'title'} validate={[required]}>Product title</Field>
       </div>
       <div>
         Product description: <br/>
         <Field component={TextArea} name={'text'} className={style.description}
-               validate={[required, maxLength250]}></Field>
+               validate={[required, maxLength250]}> Product description</Field>
       </div>
       <div>
         Photo Url:<br/>
-        <Field className={style.mainField} component={TextArea} name={'img'} validate={[required]}></Field>
+        <Field  component={TextArea} name={'img'} validate={[required]}>Photo Url</Field>
       </div>
       {props.error && <div className={style.summeryError}>
         {props.error}
@@ -45,7 +45,5 @@ const AddProductsForm = (props) => {
       </div>
     </form>
   )
-
-}
-
-export const SettingsReduxForm = reduxForm({form: 'addProducts'})(AddProductsForm)
+};
+export const SettingsReduxForm = reduxForm({form: 'addProducts'})(AddProductsForm);

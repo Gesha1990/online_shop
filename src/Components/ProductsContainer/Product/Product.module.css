@@ -27,20 +27,6 @@
   font-size: 15px;
 }
 
-.icon {
-  position: relative;
-  heigth: 25px;
-  width: 20px;
-  float: right;
-
-  margin: 10px;
-}
-
-.icon:hover {
-  -webkit-filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, .7));
-  cursor: pointer;
-}
-
 .text{
   position: relative;
   height: 200px;

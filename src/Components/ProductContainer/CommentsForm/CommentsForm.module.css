@@ -13,7 +13,6 @@
 .submReview{
   color: #ffffff;
   background-color: #5bc0de;
-  border-color: #46b8da;
   padding: 6px 12px;
   display: inline-block;
   font-size: 14px;
@@ -27,5 +26,4 @@
 }
 h3{
   font-size: 24px;
-  font-family: 'Garamond';
 }

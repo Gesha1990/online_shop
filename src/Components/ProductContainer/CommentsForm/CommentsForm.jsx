@@ -17,14 +17,14 @@ const CommentsForm = (props) => {
   return (
 
     <div>
-      <form className={style.addPrducts} onSubmit={props.handleSubmit}>
+      <form  onSubmit={props.handleSubmit}>
         <div>
-          <Field component={TextArea} name={'text'} validate={[required]} className={style.commentsField}></Field>
+          <Field component={TextArea} name={'text'} validate={[required]} className={style.commentsField}>Comment</Field>
           <button className={style.submReview}>Submit Review</button>
         </div>
       </form>
     </div>
   )
-}
-export const CommentsReduxForm = reduxForm({form: 'addProducts'})(CommentsForm)
+};
+export const CommentsReduxForm = reduxForm({form: 'addProducts'})(CommentsForm);
 

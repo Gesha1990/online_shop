@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './AuthorizationContainer.module.css'
+import style from './SignIn.module.css'
 import {Field, reduxForm} from "redux-form";
 import {TextArea} from "../Common/FormsControls/FormsControls";
 import {required} from "../../utils/validators/validators";
@@ -30,7 +30,7 @@ const SigninForm = (props) => {
     </form>
 
   )
-}
+};
 
 export const SigninReduxForm = reduxForm({form: 'signin'})(SigninForm);
 

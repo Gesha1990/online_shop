@@ -21,8 +21,8 @@ function NavBar  (props) {
 
        <NavLink to={'/addProduct'} title="add product"><img className={style.icon} src={add} alt="menu"/></NavLink>
        <NavLink to={'/products'} title="products"><img className={style.icon} src={list} alt="productList"/></NavLink>
-       {props.isSignIn? <NavLink to='/signin'><img  src={logout} alt="logout" className={style.icon} onClick={logOut}/><span className={style.login}>{props.userName}</span></NavLink>:
-         <NavLink to='/signin' ><img src={login} alt="users" className={style.icon}  /></NavLink>}
+       {props.isSignIn? <NavLink to='/signout' title="signout"><img  src={logout} alt="signout" className={style.icon} onClick={logOut}/><span className={style.login}>{props.userName}</span></NavLink>:
+         <NavLink to='/signin' title="signin" ><img src={login} alt="users" className={style.icon}  /></NavLink>}
      </div>
    )
  }

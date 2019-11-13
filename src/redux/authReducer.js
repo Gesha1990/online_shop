@@ -30,7 +30,7 @@ const authReducer = (state = initialState, action) => {
     default:
       return state;
   }
-}
+};
 
 const setUserDataAC = (userName, token, isSignIn) => ({type: SET_USER_DATA, data: {userName, token, isSignIn}});
 const signUpSuccessAC = (success) => ({type: SIGN_UP_SUCCESS, success: success});

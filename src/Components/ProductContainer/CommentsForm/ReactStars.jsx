@@ -14,6 +14,6 @@ const ReactStarsForm = (props) => {
         color2={'#ffd700'}/>
     </div>
   )
-}
+};
 export default ReactStarsForm;
 

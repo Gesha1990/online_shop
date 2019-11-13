@@ -11,15 +11,12 @@ const ProductInDetail = (props) => {
 
   return (
       <div>
-
-          <h2 className={style.productTitle}>{props.title}</h2>
+          <h2>{props.title}</h2>
           <div><img src={isImg || electronics} alt="alectronic"  className={style.img}/></div>
           <p className={style.description}>Product Description</p>
           <div className={style.text}>{props.text}</div>
-
       </div>
-
   )
-}
+};
 
 export default ProductInDetail;
