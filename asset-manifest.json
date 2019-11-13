@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/online_shop/static/css/main.4b1b7954.chunk.css",
-    "main.js": "/online_shop/static/js/main.d9fee53b.chunk.js",
-    "main.js.map": "/online_shop/static/js/main.d9fee53b.chunk.js.map",
+    "main.js": "/online_shop/static/js/main.e3fa4880.chunk.js",
+    "main.js.map": "/online_shop/static/js/main.e3fa4880.chunk.js.map",
     "runtime-main.js": "/online_shop/static/js/runtime-main.5ec42832.js",
     "runtime-main.js.map": "/online_shop/static/js/runtime-main.5ec42832.js.map",
     "static/js/2.88af9941.chunk.js": "/online_shop/static/js/2.88af9941.chunk.js",
     "static/js/2.88af9941.chunk.js.map": "/online_shop/static/js/2.88af9941.chunk.js.map",
     "index.html": "/online_shop/index.html",
-    "precache-manifest.fb97717ba5fe9c486b0393541521cbfb.js": "/online_shop/precache-manifest.fb97717ba5fe9c486b0393541521cbfb.js",
+    "precache-manifest.9100d4b0eae8702601a5f4406fa55861.js": "/online_shop/precache-manifest.9100d4b0eae8702601a5f4406fa55861.js",
     "service-worker.js": "/online_shop/service-worker.js",
     "static/css/main.4b1b7954.chunk.css.map": "/online_shop/static/css/main.4b1b7954.chunk.css.map",
     "static/media/Spinner-1s-200px.svg": "/online_shop/static/media/Spinner-1s-200px.b34c8640.svg",
@@ -22,6 +22,6 @@
     "static/js/runtime-main.5ec42832.js",
     "static/js/2.88af9941.chunk.js",
     "static/css/main.4b1b7954.chunk.css",
-    "static/js/main.d9fee53b.chunk.js"
+    "static/js/main.e3fa4880.chunk.js"
   ]
 }
