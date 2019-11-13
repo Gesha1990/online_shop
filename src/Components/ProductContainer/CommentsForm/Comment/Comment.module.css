@@ -1,0 +1,31 @@
+.listComment {
+  margin-bottom: 5px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  height: auto;
+  width: 452px;
+  float: left;
+  color: #333333;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 0;
+}
+.userName{
+  font-style: italic;
+  margin: 0 ;
+  font-size: 16px;
+}
+.rate{
+margin:  0;
+}
+.comment{
+  word-wrap:break-word;
+  overflow-x: scroll;
+
+}

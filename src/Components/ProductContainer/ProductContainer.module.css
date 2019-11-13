@@ -1,0 +1,37 @@
+
+
+.leftPart{
+  position: absolute;
+  display: inline-block;
+  top: 70px;
+  left: 50px;
+  width: 484px;
+  height: 432px;
+}
+
+.rightPart{
+  display: inline-block;
+  position: absolute;
+  top: 90px;
+  right: 200px;
+  width: 484px;
+  height: max-content;
+}
+h2{
+  font-family: 'Garamond';
+  padding-bottom: 25px;
+  font-size: 30px;
+  color: #333333;
+  border-bottom: 1px solid #333333;
+}
+
+.signError{
+  color: #800000;
+  font-size: 20px;
+  padding: 10px;
+  font-family: 'Garamond';
+  border: 1px solid #B0B0B0;
+  border-radius: 10px;
+}
+
+

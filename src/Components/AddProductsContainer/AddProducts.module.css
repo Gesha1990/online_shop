@@ -1,0 +1,84 @@
+
+.addPrducts {
+  display: inline-block;
+  position: absolute;
+  height: 440px;
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 50%;
+  transform: translateX(-50%);;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 2px 5px 8px #000;
+  border: 2px #e9eeee solid;
+  border-radius: 30px;
+
+}
+.addPrducts textarea {
+  width: 390px;
+}
+.addPrducts:nth-child(2){
+
+}
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #0f0f0f;
+  background-color: #57ff4c;
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.inputfile + label {
+  cursor: pointer;
+}
+
+.summeryError {
+  display: inline;
+  color: red;
+}
+
+.done {
+  font-size: 40px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+  float: left;
+  top: -10px;;
+  color: #57ff4c;
+}
+
+.description {
+  height: 230px;
+}
+
+.addBtn {
+  margin-top: 10px;
+  float: right;
+  width: 100px;
+  height: 40px;
+  border: black 1px solid;
+  border-radius: 20px;
+  background-color: #57ff4c;
+  outline: none;
+  padding-bottom: 5px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.addBtn:hover {
+  cursor: pointer;
+}

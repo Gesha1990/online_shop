@@ -1,0 +1,16 @@
+
+.productsTitle{
+  margin: 0 40%;
+}
+.products{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.articleIcon{
+  height: 25px;
+  float: right;
+  margin-top: 13px;
+  margin-right: 15px;
+}
+
