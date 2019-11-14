@@ -16,7 +16,7 @@ class NavBarContainer extends  React.Component{
 let mapStateToProps = (state) => {
   return{
     userName: state.auth.userName,
-    isSignIn: state.auth.isSignIn
+    isSignIn: state.auth.isSignIn,
   }
 };
 export default connect(mapStateToProps, {signoutThunkCreator})(NavBarContainer);

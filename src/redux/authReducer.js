@@ -10,7 +10,7 @@ let initialState = {
   userName: null,
   token: null,
   isSignIn: false,
-  isSignUp: false
+  isSignUp: false,
 };
 
 const authReducer = (state = initialState, action) => {
